@@ -84,7 +84,7 @@ a:visited {
 
 /* 헤더 영역 CSS */
 .header {
-    position: relative;
+    position: fixed;
     padding: 18px 5%;
     font-family: 'ACCchildrenheartOTF-Regular';
     text-align: center;
@@ -120,6 +120,7 @@ a:visited {
 }
 
 .header .menu-toggle-btn {
+    position: fixed;
     float: right;
     width: 20px;
     margin-top: 4px;
@@ -272,7 +273,12 @@ a:visited {
 
     /* 헤더 영역 CSS */
     .header {
-        position: static;
+        z-index:10;
+        top:0;
+        right:0;
+        left:0;
+        background-color: #f7f2ec;
+        position: fixed;
         padding: 28px 52px;
     }
 
@@ -307,7 +313,7 @@ a:visited {
 @media all and (min-width:1132px) {
 
     .main {
-        margin-top: 0px;
+        margin-top: 50px;
     }
     /* 디스플레이 영역 CSS */
     .what_is-section {
@@ -316,6 +322,7 @@ a:visited {
 
     .what_is-section .sec-tit {
         /* float: left; */
+        padding-top : 50px;
         margin-bottom: 40px;
     }
 
@@ -333,6 +340,7 @@ a:visited {
     .for_who-section .sec-tit {
         /* float: left; */
         margin-bottom: 0;
+        padding-top : 50px;
         text-align: start;
     }
 
@@ -350,6 +358,7 @@ a:visited {
     /* functions 영역 CSS */
     .functions-section .sec-tit {
         text-align: left;
+        padding-top : 40px;
     }
 
     .functions-section .functions-list li {
@@ -375,6 +384,7 @@ a:visited {
 
     /* how to use 영역 CSS */
     .use-section .sec-tit {
+        padding-top : 40px;
         float: left;
         margin-bottom: 0;
     }
