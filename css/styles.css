@@ -301,11 +301,11 @@ header h1 a {
 }
 
 /* 초기화 */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 li {
     list-style-type: none;
