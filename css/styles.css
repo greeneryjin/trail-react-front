@@ -314,7 +314,7 @@ li {
 /* 보여줄 구간의 높이와 넓이 설정 */
 #slideShow {
     /*전체 컨테이너*/
-    width: 500px;
+    width: 450px;
     height: 700px;
     position: relative;
     margin: 50px auto;
@@ -335,7 +335,7 @@ li {
 
 /* 첫 번째 슬라이드 가운데에 정렬하기위해 첫번째 슬라이드만 margin-left조정 */
 .slides li:first-child {
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 /* 슬라이드들 옆으로 정렬 */
